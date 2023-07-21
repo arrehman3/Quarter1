@@ -1,8 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var x = prompt("Where does the people live");
-var correctAnswer = "Pakistan";
-if (x == correctAnswer) {
+var a = prompt("Where does the people live");
+var Answer = "Pakistan";
+if (a === Answer) {
     alert("Correct");
 }
 else {

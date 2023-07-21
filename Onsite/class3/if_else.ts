@@ -1,8 +1,8 @@
-import { log } from "console";
 
-let x = prompt("Where does the people live");
-let correctAnswer = "Pakistan"
-if(x==correctAnswer)
+
+let a = prompt("Where does the people live");
+let Answer = "Pakistan"
+if(a===Answer)
 {
     alert("Correct")
 }
