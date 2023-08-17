@@ -1,0 +1,14 @@
+// Json syntax
+{
+    "name" : "vipin",
+    "age" : 21,
+    "gender" : male,
+}
+
+difference between js and json is functions
+json can be used in languages other than java
+key and data combination separated by :
+json array is written in square brackets
+array can be used in objects
+dot notation / bracket syntax
+use is transmitting data from client side to server side
