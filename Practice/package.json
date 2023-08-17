@@ -16,8 +16,9 @@
     "@types/node": "^20.5.0"
   },
   "dependencies": {
-    "banner": "^0.0.5",
+    
     "chalk": "^5.3.0",
-    "inquirer": "^9.2.10"
+    "inquirer": "^9.2.10",
+    "node-banner": "^1.4.0"
   }
 }
