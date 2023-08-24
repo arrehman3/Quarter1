@@ -1,8 +1,9 @@
 {
-  "name": "quiz1",
+  "name": "007-quiz1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
+  "bin" : "./main.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
