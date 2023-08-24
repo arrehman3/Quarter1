@@ -15,14 +15,14 @@ import inquirer from 'inquirer';
 import chalk from 'chalk';
 import showBanner from 'node-banner';
 import result from './result.js';
-import { q1 } from './question.js';
+import { questions } from './question.js';
 
 
-(async () => {
-     await showBanner('QUIZ',"");   
-})(); // Immediately Invoked Function Expression (IIFE) means execution first,function expression not declared
+// (async () => {
+//      await showBanner('QUIZ',"");   
+// })(); // Immediately Invoked Function Expression (IIFE) means execution first,function expression not declared
 
-let answer1 = await q1();
+let answer1 = await questions();
 //console.log(answer1);
 let score = await result (answer1)
 console.log(score);
