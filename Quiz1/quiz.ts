@@ -1,9 +1,14 @@
 import inquirer from "inquirer";
 import score from "./results.mjs"
 import question from "./questions.mjs";
-
+import showBanner from "node-banner";
+async function banner()
+{
+    await showBanner("Quiz","Created by Abdur-Rehman");
+}
 async function quiz()
 {
+    await banner();
     let answers : number[] = [];
     for (let i = 0;i<question.length;i++)
     {

@@ -1,9 +1,14 @@
 import inquirer from "inquirer";
+import showBanner from "node-banner";
 import add from "./add.mjs";
 import subtract from "./subtract.mjs";
 import multiply from "./multiplication.mjs";
 import divide from "./division.mjs";
+async function banner(){
+    await showBanner("CALCULATOR","BY ABDUR-REHMAN")
+}
 async function main() {
+    await banner();
     const answer = await inquirer.prompt([
         {
             type: "number",

@@ -1,6 +1,6 @@
 {
   "name": "007-calculator",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "./dir/main.js",
   "bin": "./dir/main.js",
@@ -16,6 +16,7 @@
     "@types/node": "^20.5.6"
   },
   "dependencies": {
-    "inquirer": "^9.2.10"
+    "inquirer": "^9.2.10",
+    "node-banner": "^1.4.0"
   }
 }
