@@ -1,4 +1,4 @@
-
+#!/usr/bin/env node
 import input from "./userprompt.mjs";
 import inquirer from "inquirer";
 let cont;
