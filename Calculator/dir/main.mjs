@@ -4,7 +4,6 @@ import add from "./add.mjs";
 import subtract from "./subtract.mjs";
 import multiply from "./multiplication.mjs";
 import divide from "./division.mjs";
-import figlet from "figlet";
 async function main() {
     const answer = await inquirer.prompt([
         {
@@ -39,8 +38,8 @@ async function main() {
 }
 let continueee;
 do {
-    console.log('hiiii');
-    console.log(figlet.textSync("Calculator", { font: "Bloody" }));
+    // console.log('hiiii');
+    // console.log(figlet.textSync("Calculator",{font:"Bloody"}))
     await main();
     continueee = await inquirer.prompt([
         {
