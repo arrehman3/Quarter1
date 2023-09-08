@@ -1,4 +1,5 @@
-var username_array = ["Admin", "ar3", "cyber@2", "hacker@4"];
+"use strict";
+let username_array = ["Admin", "ar3", "cyber@2", "hacker@4"];
 for (var i = 0; i < username_array.length; i++) {
     if (username_array.length < 0) {
         console.log("We need to find some Users");
@@ -10,7 +11,8 @@ for (var i = 0; i < username_array.length; i++) {
         console.log("Hello, " + username_array[i] + " thank you for logging in again");
     }
 }
-var length0 = username_array.length;
+let length0 = username_array.length;
+// i < usetname.length not applicable because loop terminates
 for (var i = 0; i < length0; i++) {
     username_array.pop();
 }

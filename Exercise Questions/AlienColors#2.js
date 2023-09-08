@@ -1,5 +1,6 @@
+"use strict";
 // runs else block
-var alien_color1 = "Red";
+let alien_color1 = "Red";
 if (alien_color1 == "green") {
     console.log("Player just earned 5 points");
 }
@@ -7,7 +8,7 @@ else {
     console.log("Player just earned 10 points");
 }
 // runs if block
-var alien_color11 = "green";
+let alien_color11 = "green";
 if (alien_color11 == "green") {
     console.log("Player just earned 5 points");
 }

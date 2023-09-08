@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const question = [{
         question: "Captital of Pakistan?",
         choices: ["Karachi", "Islamabad", "Peshawar", "Quetta"],
@@ -19,4 +21,4 @@ const question = [{
         choices: ["1940", "1947", "1975", "1971"],
         correctAnswerIndex: 3
     }];
-export default question;
+exports.default = question;

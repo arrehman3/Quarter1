@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function randomNumber() {
     return Math.floor(Math.random() * (10 - 1) + 1);
 }
@@ -9,4 +11,4 @@ for (let i = 0; i < 5; i++) {
 // for(let i =0;i<answer.length;i++){
 // console.log(answer[i])
 // }
-export default answer;
+exports.default = answer;

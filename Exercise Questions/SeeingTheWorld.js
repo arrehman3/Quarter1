@@ -1,4 +1,5 @@
-var place_array = ["Makkah", "Madinah", "Palestine", "Turkey", "Europe"];
+"use strict";
+let place_array = ["Makkah", "Madinah", "Palestine", "Turkey", "Europe"];
 for (var i = 0; i < place_array.length; i++) {
     console.log(place_array[i]);
 }

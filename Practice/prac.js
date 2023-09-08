@@ -1,3 +1,4 @@
+"use strict";
 const hello = () => {
     return "Hello World";
 };
@@ -12,4 +13,3 @@ const add = (a) => {
     console.log(a);
 };
 add("abbbcgct");
-export {};

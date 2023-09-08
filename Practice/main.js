@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // (async () => {
 //     await showBanner('Quiz', 'Created by Abdur-Rehman', 'green', 'magenta');
 // })();
@@ -43,6 +45,12 @@ const p1 = { x: 7, y: 9 };
 //p1 = {x:4,y:8}
 let p2 = { x: 7, y: 0 };
 //can be reassigned because let keyword is used
+// this is  called a fresh object
+// in javascript we can add properties like this point.z=3 but not in typescript
 p2 = { x: 8, y: 9 };
-export {};
-//nested objectds
+const P1 = {
+    name: "sss",
+    address: { street: "26", city: "eeee" },
+    contact: { email: "reg", phone: "rfe" }
+};
+//union and intersection

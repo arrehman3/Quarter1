@@ -1,3 +1,4 @@
+"use strict";
 function make_shirt(size, text) {
     return "size of the shirt is " + size + "\nMessage is : " + text;
 }

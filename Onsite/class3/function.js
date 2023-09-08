@@ -1,3 +1,4 @@
+"use strict";
 // learning functions
 // typeScript helps in typecasting
 // function is a keyword
@@ -24,27 +25,27 @@ function greet(name) {
 //()=>{}
 //explicit also possibele
 //here explicit
-var result = function (num1, num2) {
+let result = (num1, num2) => {
     // console.log(num1+num2)
     return num1 + num2;
 };
 //here not explicit
-var result2 = function (num1, num2) {
+let result2 = (num1, num2) => {
     // console.log(num1+num2)
     return num1 + num2;
 };
 // a more short syntax
 // no curly braces
 //no return keyword
-var result1 = function (num1, num2) { return num1 + num2; };
+let result1 = (num1, num2) => num1 + num2;
 function greeting(name, age) {
     console.log("My name is " + name + " I am " + age + "years old");
     // string literals
-    console.log("My name is ".concat(name, " I am ").concat(age, " years old"));
+    console.log(`My name is ${name} I am ${age} years old`);
 }
 greeting("Abdur -Rehman", 20);
 //using arrow functino
-var greet1 = function (name, age) { return "My name is ".concat(name, " I am ").concat(age, " years old"); };
+let greet1 = (name, age) => `My name is ${name} I am ${age} years old`;
 console.log(greet1("Abc", 123));
-var greet2 = function (name, age) { return console.log("My name is ".concat(name, " I am ").concat(age, " years old")); };
+let greet2 = (name, age) => console.log(`My name is ${name} I am ${age} years old`);
 greet2("Xyxz", 321);

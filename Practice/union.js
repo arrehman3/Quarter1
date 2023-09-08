@@ -1,3 +1,4 @@
+"use strict";
 let myAge;
 myAge = "F";
 if (typeof myAge === 'string') {
@@ -9,4 +10,3 @@ else {
     myAge / 2;
 }
 console.log(myAge);
-export {};

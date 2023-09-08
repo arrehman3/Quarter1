@@ -1,5 +1,6 @@
-var current_users = ["a", "b", "c", "d", "e"];
-var new_users = ["1", "a", "2", "b", "3"];
+"use strict";
+let current_users = ["a", "b", "c", "d", "e"];
+let new_users = ["1", "a", "2", "b", "3"];
 function stringEqualIgnoreCase(str1, str2) {
     return str1.toLowerCase() == str2.toLowerCase();
 }

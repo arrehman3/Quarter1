@@ -1,4 +1,5 @@
-var animals = ["Cow", "Goat", "Sheep"];
+"use strict";
+let animals = ["Cow", "Goat", "Sheep"];
 for (var i = 0; i < animals.length; i++) {
     console.log(animals[i]);
 }

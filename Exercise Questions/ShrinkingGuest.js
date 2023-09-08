@@ -1,6 +1,7 @@
-var array_Guest2 = ["Tayyab", "Danish", "Momina", "Arham", "Ali", "Rafi"];
+"use strict";
+let array_Guest2 = ["Tayyab", "Danish", "Momina", "Arham", "Ali", "Rafi"];
 for (var i = 0; array_Guest2.length > 2; i++) {
-    var temp = array_Guest2.pop();
+    let temp = array_Guest2.pop();
     console.log("Sorry " + temp + " i cant invite you, hope you understand");
 }
 for (var i = 0; i < array_Guest2.length; i++) {

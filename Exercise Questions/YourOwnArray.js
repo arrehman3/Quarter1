@@ -1,4 +1,5 @@
-var my_array = ["Car", "Bike", "Truck"];
+"use strict";
+let my_array = ["Car", "Bike", "Truck"];
 for (var i = 0; i < my_array.length; i++) {
     if (i == 0) {
         console.log("I dont own a car");

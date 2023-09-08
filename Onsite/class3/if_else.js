@@ -1,5 +1,6 @@
-var a = prompt("Where does the people live");
-var Answer = "Pakistan";
+"use strict";
+let a = prompt("Where does the people live");
+let Answer = "Pakistan";
 if (a === Answer) {
     alert("Correct");
 }

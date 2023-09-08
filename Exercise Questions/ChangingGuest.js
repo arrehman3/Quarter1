@@ -1,4 +1,5 @@
-var array_Guest = ["Tayyab", "Danish", "Momina"];
+"use strict";
+let array_Guest = ["Tayyab", "Danish", "Momina"];
 for (var i = 0; i < array_Guest.length; i++) {
     console.log("Hi " + array_Guest[i] + " you are invited to dinner");
 }

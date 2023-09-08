@@ -1,4 +1,5 @@
-var favourite_fruits = ["Apple", "Orange", "Mango"];
+"use strict";
+let favourite_fruits = ["Apple", "Orange", "Mango"];
 for (var i = 0; i < favourite_fruits.length; i++) {
     if (favourite_fruits[i] == "Apple") {
         console.log("I like apples");

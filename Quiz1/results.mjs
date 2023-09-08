@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const score = (answers, question) => {
     let quizscore = 0;
     for (let i = 0; i < question.length; i++) {
@@ -7,4 +9,4 @@ const score = (answers, question) => {
     }
     return quizscore;
 };
-export default score;
+exports.default = score;

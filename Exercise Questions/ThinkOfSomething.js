@@ -1,2 +1,3 @@
-var anything_array = ["Pak", "Ind", "China", "Afg", "UK"];
+"use strict";
+let anything_array = ["Pak", "Ind", "China", "Afg", "UK"];
 console.log(anything_array);
